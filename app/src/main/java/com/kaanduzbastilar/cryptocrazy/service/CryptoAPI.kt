@@ -11,6 +11,5 @@ interface CryptoAPI {
     @GET("prices")
     suspend fun getCryptoList() : Unit
 
-    @GET()
 
 }
